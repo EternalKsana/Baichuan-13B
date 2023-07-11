@@ -25,6 +25,7 @@ def init_model():
         use_fast=False,
         trust_remote_code=True
     )
+    model.tie_weights()
     return model, tokenizer
 
 
