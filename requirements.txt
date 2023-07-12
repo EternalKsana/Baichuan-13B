@@ -2,5 +2,5 @@ accelerate
 colorama
 cpm_kernels
 sentencepiece
-streamlit
+streamlit>=1.10.0
 transformers_stream_generator
